@@ -15,7 +15,7 @@ This paper considers the following federated learning techniques:
 - **FedSMOO**: [Dynamic Regularized Sharpness Aware Minimization in Federated Learning: Approaching Global Consistency and Smooth Landscape](https://proceedings.mlr.press/v202/sun23h.html)
 
 ## Docker Image
-`docker pull pytorch/pytorch:2.6.0-cuda12.6-cudnn9-devel`
+`docker pull rocm/pytorch:rocm6.4.2_ubuntu24.04_py3.12_pytorch_release_2.3.0`
 
 Additionally, request to RoentGen authors to get the pretrained weight and please install the required packages as below
 ```pip install transformers datasets timm diffusers huggingface_hub medmnist```
